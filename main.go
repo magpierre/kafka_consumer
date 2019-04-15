@@ -45,7 +45,7 @@ func main() {
 	}
 	run := true
 
-	fmt.Println("Cunsumer running... listening to:", *topic)
+	fmt.Println("Consumer running... listening to:", *topic)
 
 	for run == true {
 		select {
